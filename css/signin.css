@@ -1,0 +1,349 @@
+.padd_top2 {
+    padding-top: 3%;
+    margin-right: 3%;
+    padding-left: 1%;
+    padding-right: 2%;
+    text-align: right;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+
+.input1 {
+    padding: 1% 2%;
+    border: 2px solid rgb(234, 234, 234);
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 1% 1%;
+    font-size: small;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+
+.btn:hover,
+.input1:hover {
+    background-color: #FAFAFA;
+    color: black;
+}
+
+.padd_right {
+    padding-right: 4%;
+}
+
+.h3color {
+    color: red;
+}
+
+.google {
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    padding: 3%;
+}
+
+.google:hover {
+    background-color: red;
+    color: white;
+}
+
+.or {
+    margin-top: 10%;
+    z-index: 1;
+    /* position: absolute; */
+}
+
+
+/*  */
+
+
+/* CSS Document */
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* الزر الى الاعلى */
+
+#btn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: rgb(56, 56, 56);
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#btn:hover {
+    background-color: #555;
+}
+
+
+/* نهاية الزر للاعلى */
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+
+/* عذ من اجل حركة المؤشر */
+
+.Slider {
+    display: none;
+}
+
+.left {
+    float: right;
+    margin-left: auto;
+    text-align: right !important;
+}
+
+.t1 {
+    margin-left: auto;
+    float: right;
+    padding-right: 3%;
+}
+
+.txt1 {
+    padding: 15px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.txt1:hover {
+    color: rgb(173, 13, 197);
+}
+
+.search {
+    margin-left: 20%;
+    padding: auto;
+}
+
+.search img {
+    width: 8%;
+    padding: 3% 3% 3% 3%;
+    margin-right: 5%;
+    background-color: #f3f3f3;
+}
+
+.search img:hover {
+    text-decoration: none;
+    background-color: #d7d7d7;
+}
+
+.padd {
+    padding-left: 1%;
+}
+
+.txt2 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: large;
+    color: rgb(79, 79, 79);
+}
+
+.center {
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.padd_top {
+    padding-top: 3%;
+}
+
+.bg_color {
+    color: white;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    width: 6%;
+    height: 30px;
+    margin-left: 2%;
+}
+
+.input {
+    border: 2px solid rgb(197, 197, 197);
+    width: 20%;
+    height: 25px;
+    margin-top: 8%;
+    width: 50%;
+    padding-left: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+a h5:hover {
+    color: rgb(173, 13, 197);
+    ;
+    text-decoration: none;
+}
+
+.secfooter2 {
+    background-color: #e7e6e6;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+
+.center_footer {
+    text-align: right;
+    margin-left: 10%;
+    padding-top: 2%;
+}
+
+.padd_top {
+    margin-top: 8%;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+
+
+/* new */
+
+.img1 {
+    padding: 15%;
+}
+
+.srch {
+    /* width: 20%; */
+    height: 25px;
+    margin-top: 8%;
+    text-decoration: none;
+}
+
+.bg {
+    background-color: black;
+    /* color: white; */
+}
+
+.txt2 {
+    padding: 5px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-small;
+}
+
+.main {
+    padding-left: 25%;
+}
+
+.txt2:hover {
+    color: rgb(173, 13, 197);
+}
+
+
+/* Centered text */
+
+.bottom-right {
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    color: black;
+    padding: 2% 8%;
+    border: 3px solid white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.btn1 {
+    background-color: black;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    width: 100%;
+    height: 11%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: white;
+}
+
+.marg {
+    margin-top: 4%;
+    margin-left: 1%;
+}
+
+.center {
+    justify-content: center;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.btn2 {
+    padding-bottom: 1%;
+    padding-top: 1%;
+    width: 100%;
+    height: 11%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.marg2 {
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+.bg_sec1 {
+    padding-top: 3%;
+    padding-bottom: 0.5%;
+    background-color: #F6F6F5;
+}
+
+.btn3 {
+    width: 5%;
+    height: 5%;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.color1 {
+    background-color: rgb(236, 205, 200);
+}
